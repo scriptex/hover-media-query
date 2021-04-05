@@ -1,0 +1,2 @@
+@custom-media --hover (-ms-high-contrast: none), (-ms-high-contrast: active), (-moz-touch-enabled: 0), (hover: hover);
+@custom-media --no-hover (hover: none);
