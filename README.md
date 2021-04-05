@@ -1,3 +1,11 @@
+[![GitHub release](https://img.shields.io/github/release/scriptex/hover-media-query.svg)](https://github.com/scriptex/hover-media-query/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/scriptex/hover-media-query.svg)](https://github.com/scriptex/hover-media-query/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/hover-media-query.svg)](https://github.com/scriptex/hover-media-query/commits/master)
+[![Build](https://github.com/scriptex/hover-media-query/actions/workflows/build.yml/badge.svg)](https://github.com/scriptex/hover-media-query/actions/workflows/build.yml)
+[![npm](https://img.shields.io/npm/dt/hover-media-query.svg)](https://www.npmjs.com/package/hover-media-query)
+[![npm](https://img.shields.io/npm/v/hover-media-query.svg)](https://www.npmjs.com/package/hover-media-query)
+[![Analytics](https://ga-beacon.appspot.com/UA-83446952-1/github.com/scriptex/hover-media-query/README.md)](https://github.com/scriptex/hover-media-query/)
+
 # CSS Hover Media Query
 
 > A progressively enhanced "hover" media query.
@@ -69,8 +77,6 @@ The following example shows how to use the Hover Media Query and target all brow
 
 If your environment supports the SCSS language, you can use the SCSS provided here:
 
-🚧 TODO: Add import example
-
 First define the SCSS mixin:
 
 ```scss
@@ -91,23 +97,43 @@ First define the SCSS mixin:
 }
 ```
 
+Or import it:
+
+```scss
+@import 'hover-media-query/hover.scss';
+```
+
+And then use it wherever appropriate:
+
+```scss
+.button {
+	@include hover {
+		color: lavender;
+	}
+}
+```
+
 ## Bonus 2: PostCSS custom media queries
 
 If your environment is configured to use the PostCSS postprocessor, you can use the custom PostCSS media queries.
 In order to to so you need to install and configure the [PostCSS Custom Media plugin](https://github.com/postcss/postcss-custom-media)
 
-🚧 TODO: Add import example
-
-First define the custom Media Queries:
+First define the custom media queries:
 
 ```css
 @custom-media --hover (-ms-high-contrast: none), (-ms-high-contrast: active), (-moz-touch-enabled: 0), (hover: hover);
 @custom-media --no-hover (hover: none);
 ```
 
+Or import them:
+
+```css
+@import 'hover-media-query/hover.css';
+```
+
 And then use them wherever appropriate:
 
-```scss
+```css
 @media (--hover) {
 	.button:hover {
 		color: lavender;
@@ -124,6 +150,13 @@ And then use them wherever appropriate:
 	}
 }
 ```
+
+## Code stats
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/scriptex/hover-media-query)
+![GitHub repo size](https://img.shields.io/github/repo-size/scriptex/hover-media-query?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/scriptex/hover-media-query?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/scriptex/hover-media-query?style=plastic)
 
 ## Support this project
 

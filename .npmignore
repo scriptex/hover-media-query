@@ -49,3 +49,4 @@ _.config.yml
 
 # Project specific
 dist
+test.js
