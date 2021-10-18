@@ -1,12 +1,12 @@
 {
 	"name": "hover-media-query",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A progressively enhanced \"hover\" media query.",
 	"scripts": {
 		"test": "node test.js",
-		"scss": "node-sass hover.scss dist/scss.css",
+		"scss": "sass hover.scss dist/scss.css --no-source-map",
 		"postcss": "postcss hover.css -o dist/postcss.css -c postcss.config.js",
-		"build": "yarn scss && yarn postcss",
+		"build": "rm -rf dist && yarn scss && yarn postcss",
 		"release-minor": "release-it minor --ci",
 		"release-patch": "release-it patch --ci",
 		"release-major": "release-it major --ci",
@@ -27,11 +27,11 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"node-sass": "6.0.1",
 		"postcss": "8.3.9",
 		"postcss-cli": "9.0.1",
 		"postcss-custom-media": "8.0.0",
-		"release-it": "14.11.6"
+		"release-it": "14.11.6",
+		"sass": "1.43.2"
 	},
 	"devDependencies": {},
 	"browserslist": [],
