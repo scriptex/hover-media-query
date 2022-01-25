@@ -1,6 +1,6 @@
 {
 	"name": "hover-media-query",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "A progressively enhanced \"hover\" media query.",
 	"scripts": {
 		"test": "node test.js",
