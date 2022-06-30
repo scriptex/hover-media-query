@@ -28,7 +28,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"postcss": "8.4.14",
-		"postcss-cli": "9.1.0",
+		"postcss-cli": "10.0.0",
 		"postcss-custom-media": "8.0.2",
 		"release-it": "15.1.1",
 		"sass": "1.53.0"
