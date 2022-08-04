@@ -31,7 +31,7 @@
 		"postcss-cli": "10.0.0",
 		"postcss-custom-media": "8.0.2",
 		"release-it": "15.2.0",
-		"sass": "1.54.1"
+		"sass": "1.54.2"
 	},
 	"devDependencies": {},
 	"browserslist": [],
