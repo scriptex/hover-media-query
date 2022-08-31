@@ -30,7 +30,7 @@
 		"postcss": "8.4.16",
 		"postcss-cli": "10.0.0",
 		"postcss-custom-media": "8.0.2",
-		"release-it": "15.4.0",
+		"release-it": "15.4.1",
 		"sass": "1.54.7"
 	},
 	"devDependencies": {},
