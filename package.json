@@ -2,6 +2,25 @@
 	"name": "hover-media-query",
 	"version": "1.1.1",
 	"description": "A progressively enhanced \"hover\" media query.",
+	"keywords": [
+		"CSS Hover",
+		"SCSS Mixin",
+		"Hover Media Query",
+		"PostCSS Custom Media",
+		"CSS Hover Media Feature"
+	],
+	"homepage": "https://atanas.info/projects/hover-media-query.html",
+	"bugs": {
+		"url": "https://github.com/scriptex/hover-media-query/issues",
+		"email": "hi@atanas.info"
+	},
+	"license": "MIT",
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/hover-media-query"
+	},
 	"scripts": {
 		"test": "node test.js",
 		"scss": "sass hover.scss dist/scss.css --no-source-map",
@@ -12,33 +31,24 @@
 		"release-major": "release-it major --ci",
 		"changelog-local": "npx auto-changelog"
 	},
-	"keywords": [
-		"Hover Media Query",
-		"CSS Hover Media Feature",
-		"CSS Hover",
-		"SCSS Mixin",
-		"PostCSS Custom Media"
-	],
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"repository": "https://github.com/scriptex/hover-media-query",
-	"bugs": {
-		"url": "https://github.com/scriptex/hover-media-query/issues",
-		"email": "scriptex.bg@gmail.com"
-	},
-	"license": "MIT",
 	"dependencies": {
 		"postcss": "8.4.16",
+		"postcss-custom-media": "8.0.2"
+	},
+	"devDependencies": {
 		"postcss-cli": "10.0.0",
-		"postcss-custom-media": "8.0.2",
 		"release-it": "15.4.1",
 		"sass": "1.54.9"
 	},
-	"devDependencies": {},
-	"browserslist": [],
+	"peerDependencies": {
+		"postcss": "^8.0.0",
+		"postcss-custom-media": "^8.0.0"
+	},
 	"release-it": {
 		"hooks": {
-			"after:release": "yarn changelog-local && git add CHANGELOG.md && git commit -m \"Update CHANGELOG.md with the latest changes\" && git push"
+			"after:release": "yarn changelog-local && git add CHANGELOG.md && git commit -m \"Update CHANGELOG.md with the latest changes\" --no-verify && git push"
 		},
+		"use": "pkg.version",
 		"git": {
 			"changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
 			"requireCleanWorkingDir": true,
@@ -48,9 +58,11 @@
 			"addUntrackedFiles": false,
 			"commit": true,
 			"commitMessage": "Release ${version}",
-			"commitArgs": [],
+			"commitArgs": [
+				"--no-verify"
+			],
 			"tag": true,
-			"tagName": null,
+			"tagName": "${version}",
 			"tagAnnotation": "Release ${version}",
 			"tagArgs": [],
 			"push": true,
@@ -59,30 +71,14 @@
 			],
 			"pushRepo": ""
 		},
-		"npm": {
-			"publish": false,
-			"publishPath": ".",
-			"tag": null,
-			"otp": null,
-			"ignoreVersion": false,
-			"skipChecks": false,
-			"timeout": 10
-		},
 		"github": {
-			"release": false,
-			"releaseName": "Release ${version}",
-			"releaseNotes": null,
-			"preRelease": false,
-			"draft": false,
-			"tokenRef": "GITHUB_TOKEN",
-			"assets": null,
-			"host": null,
-			"timeout": 0,
-			"proxy": null,
-			"skipChecks": false
+			"release": false
 		},
 		"gitlab": {
 			"release": false
+		},
+		"npm": {
+			"publish": false
 		}
 	}
 }
