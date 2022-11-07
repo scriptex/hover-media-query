@@ -1,6 +1,6 @@
 {
 	"name": "hover-media-query",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "A progressively enhanced \"hover\" media query.",
 	"keywords": [
 		"CSS Hover",
@@ -9,7 +9,7 @@
 		"PostCSS Custom Media",
 		"CSS Hover Media Feature"
 	],
-	"homepage": "https://atanas.info/projects/hover-media-query.html",
+	"homepage": "https://atanas.info/portfolio/open-source/hover-media-query",
 	"bugs": {
 		"url": "https://github.com/scriptex/hover-media-query/issues",
 		"email": "hi@atanas.info"
