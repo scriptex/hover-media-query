@@ -36,7 +36,7 @@
 		"postcss-custom-media": "9.0.1"
 	},
 	"devDependencies": {
-		"postcss-cli": "10.0.0",
+		"postcss-cli": "10.1.0",
 		"release-it": "15.5.0",
 		"sass": "1.56.1"
 	},
