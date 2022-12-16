@@ -1,6 +1,6 @@
 {
 	"name": "hover-media-query",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"description": "A progressively enhanced \"hover\" media query.",
 	"keywords": [
 		"CSS Hover",
@@ -42,7 +42,7 @@
 	},
 	"peerDependencies": {
 		"postcss": "^8.0.0",
-		"postcss-custom-media": "^8.0.0 || ^9.0.0"
+		"postcss-custom-media": "^8 || ^9"
 	},
 	"release-it": {
 		"hooks": {
