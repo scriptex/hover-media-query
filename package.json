@@ -32,7 +32,7 @@
 		"changelog-local": "npx auto-changelog"
 	},
 	"dependencies": {
-		"postcss": "8.4.20",
+		"postcss": "8.4.21",
 		"postcss-custom-media": "9.0.1"
 	},
 	"devDependencies": {
