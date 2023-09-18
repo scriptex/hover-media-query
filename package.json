@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"postcss": "8.4.29",
-		"postcss-custom-media": "10.0.0"
+		"postcss-custom-media": "10.0.1"
 	},
 	"devDependencies": {
 		"postcss-cli": "10.1.0",
