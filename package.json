@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"postcss-cli": "10.1.0",
-		"release-it": "16.2.1",
+		"release-it": "17.0.0",
 		"sass": "1.69.5"
 	},
 	"peerDependencies": {
