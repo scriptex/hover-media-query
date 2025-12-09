@@ -513,19 +513,12 @@ chokidar@^3.3.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-chokidar@^4.0.3:
+chokidar@^4.0.0, chokidar@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-4.0.3.tgz#7be37a4c03c9aee1ecfe862a4a23b2c70c205d30"
   integrity sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==
   dependencies:
     readdirp "^4.0.1"
-
-chokidar@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-5.0.0.tgz#949c126a9238a80792be9a0265934f098af369a5"
-  integrity sha512-TQMmc3w+5AxjpL8iIiwebF73dRDF4fBIieAqGn9RGCWaEVwQ6Fb2cGe31Yns0RRIzii5goJ1Y7xbMwo1TxMplw==
-  dependencies:
-    readdirp "^5.0.0"
 
 ci-info@^4.3.0:
   version "4.3.0"
@@ -1425,11 +1418,6 @@ readdirp@^4.0.1:
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-4.0.1.tgz#b2fe35f8dca63183cd3b86883ecc8f720ea96ae6"
   integrity sha512-GkMg9uOTpIWWKbSsgwb5fA4EavTR+SG/PMPoAY8hkhHfEEY0/vqljY+XHqtDf2cr2IJtoNRDbrrEpZUiZCkYRw==
 
-readdirp@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-5.0.0.tgz#fbf1f71a727891d685bb1786f9ba74084f6e2f91"
-  integrity sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==
-
 readdirp@~3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
@@ -1506,12 +1494,12 @@ rxjs@^7.8.2:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@1.94.3:
-  version "1.94.3"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.94.3.tgz#a8ee3ee01a46adada3fb0d9de8d15a6007448d03"
-  integrity sha512-AhSSJrOPvcPEbTEQJxCt4vhIeAmLpLaVkNZF06oYM+H3HkipZ21bbD4i4B1Vj3MNUIBsytNjwXAe7CGQ7f0nag==
+sass@1.95.0:
+  version "1.95.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.95.0.tgz#3a3a4d4d954313ab50eaf16f6e2548a2f6ec0811"
+  integrity sha512-9QMjhLq+UkOg/4bb8Lt8A+hJZvY3t+9xeZMKSBtBEgxrXA3ed5Ts4NDreUkYgJP1BTmrscQE/xYhf7iShow6lw==
   dependencies:
-    chokidar "^5.0.0"
+    chokidar "^4.0.0"
     immutable "^5.0.2"
     source-map-js ">=0.6.2 <2.0.0"
   optionalDependencies:
