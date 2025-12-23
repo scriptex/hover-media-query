@@ -1425,10 +1425,10 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-release-it@19.0.6:
-  version "19.0.6"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-19.0.6.tgz#9be4900d66ada03398647d95e0b26f6a1c687485"
-  integrity sha512-XTCNZ2mV9wjASQmc2bcQjA+ImJiFMijbFSyQE6lDmP1Plq17acjYaoY5FmJb5Lh/Nv4UDwfRlKQMv1DvHFKf1g==
+release-it@19.1.0:
+  version "19.1.0"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-19.1.0.tgz#6c13e419ca0e1e2558ece312d70fe5a3e4a69d02"
+  integrity sha512-XgAIZVKgHgOBUUoLFrUfXHG4cUDiXPWFW0AHIAgk17Tk9JbIjz9YyAU8MyQer7dWkfG5IpNU9QH8tViQZGfhaw==
   dependencies:
     "@nodeutils/defaults-deep" "1.1.0"
     "@octokit/rest" "22.0.0"
@@ -1494,10 +1494,10 @@ rxjs@^7.8.2:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@1.95.1:
-  version "1.95.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.95.1.tgz#63116617ed86149c46c88e0c35e9c844703167f1"
-  integrity sha512-uPoDh5NIEZV4Dp5GBodkmNY9tSQfXY02pmCcUo+FR1P+x953HGkpw+vV28D4IqYB6f8webZtwoSaZaiPtpTeMg==
+sass@1.97.1:
+  version "1.97.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.1.tgz#f36e492baf8ccdd08d591b58d3d8b53ea35ab905"
+  integrity sha512-uf6HoO8fy6ClsrShvMgaKUn14f2EHQLQRtpsZZLeU/Mv0Q1K5P0+x2uvH6Cub39TVVbWNSrraUhDAoFph6vh0A==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
