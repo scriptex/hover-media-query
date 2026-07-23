@@ -32,13 +32,13 @@
 		"changelog-local": "npx auto-changelog"
 	},
 	"dependencies": {
-		"postcss": "8.5.16",
+		"postcss": "8.5.22",
 		"postcss-custom-media": "12.0.1"
 	},
 	"devDependencies": {
 		"postcss-cli": "11.0.1",
 		"release-it": "20.2.1",
-		"sass": "1.101.0"
+		"sass": "1.101.6"
 	},
 	"peerDependencies": {
 		"postcss": "^8.0.0",
